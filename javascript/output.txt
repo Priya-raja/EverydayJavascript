@@ -1,0 +1,3 @@
+The pipeTo() method of the ReadableStream interface pipes the current ReadableStream to a given WritableStream and returns a Promise that fulfills when the piping process completes successfully, or rejects if any errors were encountered.
+
+Piping a stream will generally lock it for the duration of the pipe, preventing other readers from locking it.
